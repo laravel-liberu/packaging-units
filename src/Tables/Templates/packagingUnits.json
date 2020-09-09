@@ -1,0 +1,35 @@
+{
+    "name": "Packaging Unit",
+    "routePrefix": "administration.packagingUnits",
+    "crtNo": true,
+    "buttons": ["excel", "create", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Name",
+            "name": "name",
+            "data": "packaging_units.name",
+            "meta": [
+                "searchable",
+                "sortable",
+                "translatable"
+            ]
+        },
+        {
+            "label": "Description",
+            "name": "description",
+            "data": "packaging_units.description",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        },
+        {
+            "label": "Created At",
+            "name": "created_at",
+            "data": "packaging_units.created_at",
+            "meta": [
+                "date"
+            ]
+        }
+    ]
+}

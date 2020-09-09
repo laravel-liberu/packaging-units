@@ -1,0 +1,47 @@
+{
+    "name": "laravel-enso/packaging-units",
+    "type": "library",
+    "description": "Packaging units dependency for Laravel Enso",
+    "authors": [
+        {
+            "name": "Reza Fouladi",
+            "email": "raftx24@gmail.com ",
+            "homepage": "https://laravel-enso.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Adrian Ocneanu",
+            "email": "aocneanu@gmail.com",
+            "homepage": "https://laravel-enso.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "laravel-enso",
+        "packaging-units",
+        "units"
+    ],
+    "homepage": "https://github.com/laravel-enso/packaging-units",
+    "require": {
+        "php": ">=7.4.0",
+        "laravel-enso/core": "^5.0",
+        "laravel-enso/forms": "^4.0",
+        "laravel-enso/helpers": "^2.0",
+        "laravel-enso/migrator": "^2.0",
+        "laravel-enso/rememberable": "^3.0",
+        "laravel-enso/select": "^4.0",
+        "laravel-enso/tables": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelEnso\\PackagingUnits\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelEnso\\PackagingUnits\\AppServiceProvider"
+            ]
+        }
+    }
+}
