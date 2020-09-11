@@ -12,4 +12,6 @@ class Options extends Controller
     use OptionsBuilder;
 
     protected string $model = PackagingUnit::class;
+
+    private $queryAttributes = ['name', 'description'];
 }
