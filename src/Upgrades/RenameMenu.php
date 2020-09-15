@@ -12,12 +12,12 @@ class RenameMenu implements MigratesData
 {
     public function isMigrated(): bool
     {
-        return Menu::whereName('Packaging Units')->exists();
+        return Menu::whereName('packaging units')->exists();
     }
 
     public function migrateData(): void
     {
-        Menu::whereName('Packaging Unit')->update([
+        Menu::whereName('packaging unit')->update([
             'name' => 'Packaging Units'
         ]);
     }
