@@ -1,9 +1,19 @@
 <?php
 
-use Faker\Generator as Faker;
+namespace LaravelEnso\PackagingUnits\Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
 use LaravelEnso\PackagingUnits\Models\PackagingUnit;
 
-$factory->define(PackagingUnit::class, fn (Faker $faker) => [
-    'name' => $faker->unique()->word,
-    'description' => $faker->sentence,
-]);
+class PackagingUnitFactory extends Factory
+{
+    protected $model = PackagingUnit::class;
+
+    public function definition()
+    {
+        return [
+            'name' => $this->faker->unique()->word,
+            'description' => $this->faker->sentence,
+        ];
+    }
+}

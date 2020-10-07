@@ -1,5 +1,7 @@
 <?php
 
+namespace LaravelEnso\PackagingUnits\Database\Seeders;
+
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Collection;
 use LaravelEnso\PackagingUnits\Models\PackagingUnit;
@@ -13,6 +15,6 @@ class PackagingUnitsSeeder extends Seeder
     public function run()
     {
         (new Collection(self::Units))
-            ->each(fn ($units) => factory(PackagingUnit::class)->create($units));
+            ->each(fn ($units) => PackagingUnit::factory()->create($units));
     }
 }
