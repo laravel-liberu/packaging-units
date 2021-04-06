@@ -2,8 +2,8 @@
 
 namespace LaravelEnso\PackagingUnits\Tables\Builders;
 
-use LaravelEnso\PackagingUnits\Models\PackagingUnit;
 use Illuminate\Database\Eloquent\Builder;
+use LaravelEnso\PackagingUnits\Models\PackagingUnit;
 use LaravelEnso\Tables\Contracts\Table;
 
 class PackagingUnitTable implements Table

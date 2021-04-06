@@ -23,9 +23,8 @@ class CreateStructureForPackagingUnits extends Migration
     ];
 
     protected array $menu = [
-        'name' => 'Packaging Units', 'icon' => 'archive', 'route' => 'administration.packagingUnits.index', 'order_index' => 100, 'has_children' => false
+        'name' => 'Packaging Units', 'icon' => 'archive', 'route' => 'administration.packagingUnits.index', 'order_index' => 100, 'has_children' => false,
     ];
 
     protected ?string $parentMenu = 'Administration';
 }
-

@@ -2,8 +2,8 @@
 
 namespace LaravelEnso\PackagingUnits\Forms\Builders;
 
-use LaravelEnso\PackagingUnits\Models\PackagingUnit;
 use LaravelEnso\Forms\Services\Form;
+use LaravelEnso\PackagingUnits\Models\PackagingUnit;
 
 class PackagingUnitForm
 {
