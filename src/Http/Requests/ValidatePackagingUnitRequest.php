@@ -24,6 +24,6 @@ class ValidatePackagingUnitRequest extends FormRequest
     protected function unique(): Unique
     {
         return Rule::unique('packaging_units', 'name')
-            ->ignore(optional($this->route('packagingUnit'))->id);
+            ->ignore($this->route('packagingUnit')?->id);
     }
 }

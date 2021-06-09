@@ -14,7 +14,7 @@ class PackagingUnitsSeeder extends Seeder
 
     public function run()
     {
-        (new Collection(self::Units))
+        Collection::wrap(self::Units)
             ->each(fn ($units) => PackagingUnit::factory()->create($units));
     }
 }
