@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
         ], ['packaging-unit-factory', 'enso-factories']);
 
         $this->publishes([
-            __DIR__.'/../database/seeds' => database_path('seeds'),
+            __DIR__.'/../database/seeders' => database_path('seeders'),
         ], ['packaging-unit-seeder',  'enso-seeders']);
     }
 }
