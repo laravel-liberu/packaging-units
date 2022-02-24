@@ -6,7 +6,7 @@ use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\Unique;
 
-class ValidatePackagingUnitRequest extends FormRequest
+class ValidatePackagingUnit extends FormRequest
 {
     public function authorize()
     {
