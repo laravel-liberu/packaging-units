@@ -2,7 +2,7 @@
 
 use LaravelEnso\Migrator\Database\Migration;
 
-class CreateStructureForPackagingUnits extends Migration
+return new class extends Migration
 {
     protected array $permissions = [
         ['name' => 'administration.packagingUnits.index', 'description' => 'Show index for packaging units', 'is_default' => false],
@@ -27,4 +27,4 @@ class CreateStructureForPackagingUnits extends Migration
     ];
 
     protected ?string $parentMenu = 'Administration';
-}
+};
