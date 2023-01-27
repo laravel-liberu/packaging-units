@@ -1,35 +1,35 @@
 {
-    "name": "laravel-enso/packaging-units",
+    "name": "cgdsoftware/packaging-units",
     "type": "library",
     "description": "Packaging units dependency for Laravel Enso",
     "authors": [
         {
             "name": "Reza Fouladi",
             "email": "raftx24@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "packaging-units",
         "units"
     ],
-    "homepage": "https://github.com/laravel-enso/packaging-units",
+    "homepage": "https://github.com/cgdsoftware/packaging-units",
     "require": {
-        "laravel-enso/core": "^8.0",
-        "laravel-enso/forms": "^4.0",
-        "laravel-enso/helpers": "^2.0",
-        "laravel-enso/migrator": "^2.1",
-        "laravel-enso/rememberable": "^3.0",
-        "laravel-enso/select": "^4.0",
-        "laravel-enso/tables": "^4.0"
+        "cgdsoftware/core": "^8.0",
+        "cgdsoftware/forms": "^4.0",
+        "cgdsoftware/helpers": "^2.0",
+        "cgdsoftware/migrator": "^2.1",
+        "cgdsoftware/rememberable": "^3.0",
+        "cgdsoftware/select": "^4.0",
+        "cgdsoftware/tables": "^4.0"
     },
     "autoload": {
         "psr-4": {
