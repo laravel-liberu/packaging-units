@@ -6,9 +6,9 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/packaging-units/downloads)](https://packagist.org/packages/laravel-enso/packaging-units)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/packaging-units/version)](https://packagist.org/packages/laravel-enso/packaging-units)
 
-Packaging units dependency for [Laravel Enso](https://github.com/laravel-enso/enso)
+Packaging units dependency for [Laravel Liberu](https://github.com/laravel-enso/enso)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/enso) ecosystem.
 
 The front end assets that utilize this api are present in the [packaging-units](https://github.com/enso-ui/packaging-units) package.
 
