@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\Create;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\Destroy;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\Edit;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\ExportExcel;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\InitTable;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\Options;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\Store;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\TableData;
-use LaravelEnso\PackagingUnits\Http\Controllers\Packaging\Update;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\Create;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\Destroy;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\Edit;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\ExportExcel;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\InitTable;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\Options;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\Store;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\TableData;
+use LaravelLiberu\PackagingUnits\Http\Controllers\Packaging\Update;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/administration/packagingUnits')

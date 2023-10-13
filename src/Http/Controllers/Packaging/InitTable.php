@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Http\Controllers\Packaging;
+namespace LaravelLiberu\PackagingUnits\Http\Controllers\Packaging;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\PackagingUnits\Tables\Builders\PackagingUnit;
-use LaravelEnso\Tables\Traits\Init;
+use LaravelLiberu\PackagingUnits\Tables\Builders\PackagingUnit;
+use LaravelLiberu\Tables\Traits\Init;
 
 class InitTable extends Controller
 {

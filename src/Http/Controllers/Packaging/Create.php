@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Http\Controllers\Packaging;
+namespace LaravelLiberu\PackagingUnits\Http\Controllers\Packaging;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\PackagingUnits\Forms\Builders\PackagingUnit;
+use LaravelLiberu\PackagingUnits\Forms\Builders\PackagingUnit;
 
 class Create extends Controller
 {

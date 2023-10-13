@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Forms\Builders;
+namespace LaravelLiberu\PackagingUnits\Forms\Builders;
 
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\PackagingUnits\Models\PackagingUnit as Model;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\PackagingUnits\Models\PackagingUnit as Model;
 
 class PackagingUnit
 {

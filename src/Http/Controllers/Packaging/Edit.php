@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Http\Controllers\Packaging;
+namespace LaravelLiberu\PackagingUnits\Http\Controllers\Packaging;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\PackagingUnits\Forms\Builders\PackagingUnit;
-use LaravelEnso\PackagingUnits\Models\PackagingUnit as Model;
+use LaravelLiberu\PackagingUnits\Forms\Builders\PackagingUnit;
+use LaravelLiberu\PackagingUnits\Models\PackagingUnit as Model;
 
 class Edit extends Controller
 {

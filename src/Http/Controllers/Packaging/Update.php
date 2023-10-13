@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Http\Controllers\Packaging;
+namespace LaravelLiberu\PackagingUnits\Http\Controllers\Packaging;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\PackagingUnits\Http\Requests\ValidatePackagingUnit;
-use LaravelEnso\PackagingUnits\Models\PackagingUnit;
+use LaravelLiberu\PackagingUnits\Http\Requests\ValidatePackagingUnit;
+use LaravelLiberu\PackagingUnits\Models\PackagingUnit;
 
 class Update extends Controller
 {

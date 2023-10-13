@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Tables\Builders;
+namespace LaravelLiberu\PackagingUnits\Tables\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
-use LaravelEnso\PackagingUnits\Models\PackagingUnit as Model;
-use LaravelEnso\Tables\Contracts\Table;
+use LaravelLiberu\PackagingUnits\Models\PackagingUnit as Model;
+use LaravelLiberu\Tables\Contracts\Table;
 
 class PackagingUnit implements Table
 {

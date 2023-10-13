@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Database\Seeders;
+namespace LaravelLiberu\PackagingUnits\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Collection;
-use LaravelEnso\PackagingUnits\Models\PackagingUnit;
+use LaravelLiberu\PackagingUnits\Models\PackagingUnit;
 
 class PackagingUnitsSeeder extends Seeder
 {

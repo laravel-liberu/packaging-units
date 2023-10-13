@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Models;
+namespace LaravelLiberu\PackagingUnits\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Helpers\Traits\AvoidsDeletionConflicts;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\Tables\Traits\TableCache;
+use LaravelLiberu\Helpers\Traits\AvoidsDeletionConflicts;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Tables\Traits\TableCache;
 
 class PackagingUnit extends Model
 {

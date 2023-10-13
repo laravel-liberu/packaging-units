@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits;
+namespace LaravelLiberu\PackagingUnits;
 
 use Illuminate\Support\ServiceProvider;
 

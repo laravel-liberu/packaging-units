@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\PackagingUnits\Database\Factories;
+namespace LaravelLiberu\PackagingUnits\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use LaravelEnso\PackagingUnits\Models\PackagingUnit;
+use LaravelLiberu\PackagingUnits\Models\PackagingUnit;
 
 class PackagingUnitFactory extends Factory
 {
