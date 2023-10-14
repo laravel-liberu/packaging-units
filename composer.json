@@ -1,7 +1,7 @@
 {
     "name": "laravel-liberu/packaging-units",
     "type": "library",
-    "description": "Packaging units dependency for Laravel Enso",
+    "description": "Packaging units dependency for Laravel Liberu",
     "authors": [
         {
             "name": "Reza Fouladi",
